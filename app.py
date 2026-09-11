@@ -94,5 +94,6 @@ if question:
                 st.session_state.qa_history.append({"question": question, "sql": sql, "answer": answer})
             except ValueError as e:
                 st.error(str(e))
-            except Exception:
+            except Exception as e:
+                print(f"Q&A error: {type(e).__name__}: {e}")
                 st.warning("Q&A is busy right now, try again in a minute.")
