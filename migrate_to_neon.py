@@ -37,6 +37,12 @@ neon_cur.execute("""
         standard_name TEXT NOT NULL,
         is_food BOOLEAN NOT NULL
     );
+
+    DROP TABLE IF EXISTS operational_costs;
+    CREATE TABLE operational_costs (
+        cost_date DATE,
+        price NUMERIC
+    );
 """)
 
 local_cur.execute("SELECT purchase_date, item, price FROM purchases;")
@@ -53,6 +59,11 @@ local_cur.execute("SELECT raw_item, standard_name, is_food FROM item_classificat
 rows = local_cur.fetchall()
 neon_cur.executemany("INSERT INTO item_classification (raw_item, standard_name, is_food) VALUES (%s, %s, %s);", rows)
 print(f"Migrated {len(rows)} item_classification rows.")
+
+local_cur.execute("SELECT cost_date, price FROM operational_costs;")
+rows = local_cur.fetchall()
+neon_cur.executemany("INSERT INTO operational_costs (cost_date, price) VALUES (%s, %s);", rows)
+print(f"Migrated {len(rows)} operational_costs rows.")
 
 neon_conn.commit()
 local_cur.close()

@@ -51,10 +51,13 @@ cur.execute("SELECT raw_item, standard_name, is_food FROM item_classification;")
 classification = {r[0]: (r[1], r[2]) for r in cur.fetchall()}
 
 final_purchases = []
+final_operational_costs = []
 for parsed_date, item, price in filled:
     standard_name, is_food = classification.get(item, (None, False))
     if is_food:
         final_purchases.append((parsed_date, standard_name, float(price)))
+    else:
+        final_operational_costs.append((parsed_date, float(price)))
 
 cur.execute("DROP TABLE IF EXISTS purchases;")
 cur.execute("""
@@ -69,6 +72,19 @@ cur.executemany(
     final_purchases,
 )
 print(f"Inserted {len(final_purchases)} purchase rows.")
+
+cur.execute("DROP TABLE IF EXISTS operational_costs;")
+cur.execute("""
+    CREATE TABLE operational_costs (
+        cost_date DATE,
+        price NUMERIC
+    );
+""")
+cur.executemany(
+    "INSERT INTO operational_costs (cost_date, price) VALUES (%s, %s);",
+    final_operational_costs,
+)
+print(f"Inserted {len(final_operational_costs)} operational cost rows.")
 
 # --- Sales: no blank/ordinal dates, just currency strings to strip ---
 cur.execute("SELECT date, total_sales_cedis, total_sales_usd FROM staging_sales;")
