@@ -1,13 +1,6 @@
-# Sauce Plata Data Analytics
-
-Code/data workspace for this project. Full design, phase checklist, and progress log live in Obsidian:
-`G:\My Drive\Second Brain AI\Business\Sauce Plata\Sauce Plata Data Analytics - Project Log.md`
-
-Read that vault note first in any new session — it has the orientation block, the locked design (architecture, data flow, error handling), and current status. Update it at the end of each phase, not just this folder.
-
 ## What this project is
 
-Analyzes Sauce Plata restaurant's real purchasing/sales data (Google Sheets today, photo-based ingestion going forward), builds a hosted auto-updating dashboard, then a RAG Q&A layer. Runs in parallel with the Ledgerra project (`../Ledgerra/`) as an equally real second track — not a replacement for it. POS system and a sellable SaaS product are deliberately separate, later projects, not part of this one.
+Analyzes Sauce Plata restaurant's real purchasing/sales data (Google Sheets today, photo-based ingestion going forward), builds a hosted auto-updating dashboard, then a RAG Q&A layer. 
 
 ## Phases
 
