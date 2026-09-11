@@ -1,0 +1,467 @@
+item,count,suggested_standard_name,is_food_guess,standard_name,is_food
+Ademe,1,Ademe,TRUE,Ademe,NO
+Adja,9,Adja,TRUE,Adja,YES
+Adja 2,1,Adja 2,TRUE,Adja,YES
+Adja 4,3,Adja 4,TRUE,Adja,YES
+Adja Jollof,2,Adja Jollof,TRUE,Adja,YES
+Adjis,1,Adjis,TRUE,Adja,YES
+Airtime,14,Airtime,FALSE,Airtime,NO
+Ajinomoto,1,Ajinomoto,TRUE,Ajinomoto,NO
+All seasonings,1,All seasonings,TRUE,Spices Mixture,YES
+Alomo,1,Alomo,TRUE,Alomo,NO
+Aluminium bowl,1,Aluminium Bowl,FALSE,Medium Silver Bowl,NO
+Aluminium Bowl,2,Aluminium Bowl,FALSE,Medium Silver Bowl,NO
+Aluminium Foil bowl,1,Aluminuim Foil Bowl,FALSE,Medium Silver Bowl,NO
+Aluminium Foil Bowl,1,Aluminuim Foil Bowl,FALSE,Medium Silver Bowl,NO
+Aluminuim Foil Bowl,1,Aluminuim Foil Bowl,FALSE,Medium Silver Bowl,NO
+Ama rice,1,Ama Rice,TRUE,Rice,YES
+Ama Rice,2,Ama Rice,TRUE,Rice,YES
+Amane,8,Amane,TRUE,Amane,NO
+Anapuna salt,1,Anapuna salt,TRUE,Salt,YES
+Anguwana beef,1,Anguwana beef,TRUE,Angwamo Beef,YES
+Angwamo beef,12,Angwamo beef,TRUE,Angwamo Beef,YES
+Arsa,1,Arsa,TRUE,Chef Salary,NO
+Artificial leaves carpet,1,Artificial leaves carpet,FALSE,Carpet,NO
+Baked beans,1,Baked beans,TRUE,Baked Beans,YES
+Baking soda,2,Baking soda,TRUE,Baking Soda,YES
+Banana,14,Banana,TRUE,Banana,YES
+Banner & menu printing,1,Banner & menu printing,FALSE,Banner,NO
+Banner transport,1,Banner transport,FALSE,Banner,NO
+Basket,1,Basket,FALSE,Basket,NO
+Bay leaves,1,Bay leaves,TRUE,Bay Leaves,YES
+Bay Leaves Mixture,1,Bay Leaves Mixture,TRUE,Spices Mixture,YES
+Beans,1,Beans,TRUE,Beans,YES
+Beef,4,Beef,TRUE,Boneless Beef,YES
+Beetroot,1,Beetroot,TRUE,Beetroot,YES
+Bel-Aqua,1,Bel-Aqua,TRUE,Bottle Water,NO
+Big black bowl,5,Big black bowl,FALSE,Large Black Bowl,NO
+Big Black bowl,2,Big black bowl,FALSE,Large Black Bowl,NO
+Big Black Bowl,1,Big black bowl,FALSE,Large Black Bowl,NO
+Big Black rubber,1,Big Black rubber,FALSE,Borla Rubber,NO
+Big cup,1,Big cup,FALSE,Disposable Cup,NO
+Big foil bowl,2,Big foil bowl,FALSE,Large Silver Bowl,NO
+Big Foil bowl,1,Big foil bowl,FALSE,Large Silver Bowl,NO
+Big Foil Bowl,1,Big foil bowl,FALSE,Large Silver Bowl,NO
+Big plastic bowl,1,Big plastic bowl,FALSE,Large Black Bowl,NO
+Big rubber,1,Big rubber,FALSE,Borla Rubber,NO
+Bine,2,Bine,TRUE,Washing Powder,NO
+Black bowl,1,Black bowl,FALSE,Large Black Bowl,NO
+Black Disposable Bowl,2,Black Disposable Bowl,FALSE,Large Black Bowl,NO
+Black Disposable Bowl Mini,1,Black Disposable Bowl,FALSE,Large Black Bowl,NO
+Black long rubber,1,Black long rubber,FALSE,Borla Rubber,NO
+Black pastic bowl,1,Black plastic bowl,FALSE,Large Black Bowl,NO
+Black pepper,1,Black pepper,TRUE,Black Pepper,YES
+Black plastic bowl,8,Black plastic bowl,FALSE,Large Black Bowl,NO
+Black Plastic Bowl,1,Black plastic bowl,FALSE,Large Black Bowl,NO
+Black rubber,1,Big Black rubber,FALSE,Borla Rubber,NO
+Blender Fixing,1,Blender Fixing,FALSE,Blender Fixing,NO
+Blending,1,Blending,TRUE,Blender Fixing,NO
+Boneless beef,30,Boneless beef,TRUE,Boneless Beef,YES
+Borla,25,Borla,TRUE,Borla,NO
+Borla ,1,Borla,TRUE,Borla,NO
+Borla rubber,5,Borla rubber,FALSE,Borla Rubber,NO
+Borla Rubber,1,Borla rubber,FALSE,Borla Rubber,NO
+Bowls,3,Bowls,FALSE,Large Black Bowl,NO
+Brandings sticker,1,Brandings sticker,FALSE,Stickers,NO
+Bread,3,Bread,TRUE,Bread,NO
+Burger bowl,2,Burger bowl,FALSE,Burger Bowl,NO
+Burger cutter,1,Burger cutter,TRUE,Burger cutter,NO
+Cabbage,65,Cabbage,TRUE,Cabbage,YES
+Canned beef,1,Canned beef,TRUE,Canned Beef,YES
+Carpenter Charge,1,Carpenter Charge,FALSE,Carpenter,NO
+Carpet,1,Carpet,FALSE,Carpet,NO
+Carpet TNT,1,Carpet TNT,FALSE,Carpet,NO
+Carrot,17,Carrots,TRUE,Carrots,YES
+Carrots,30,Carrots,TRUE,Carrots,YES
+Chair,1,Chair,FALSE,Chair,NO
+Charger,1,Charger,TRUE,Charger,NO
+Cheese,26,Cheese,TRUE,Cheese,YES
+Chef,3,Chef,TRUE,Chef Salary,NO
+Chef Credit,4,Chef Credit,FALSE,Chef Credit/General,NO
+Chef Feb,1,Chef Feb,FALSE,Chef Salary,NO
+Chef Salary,4,Chef Salary,FALSE,Chef Salary,NO
+Chef Sami,6,Chef Sami,FALSE,Chef Salary,NO
+Chef Sami Salary,1,Chef Sami Salary,FALSE,Chef Salary,NO
+Chef Sammy phone repairs,1,Chef Sammy phone repairs,FALSE,Chef Credit/General,NO
+Chicken,3,Chicken,TRUE,Chicken Drumsticks,YES
+Chicken breast,3,Chicken breast,TRUE,Chicken Breast,YES
+Chicken Breast,1,Chicken breast,TRUE,Chicken Breast,YES
+Chicken drumsticks,2,Chicken drumsticks,TRUE,Chicken Drumsticks,YES
+Chicken Drumsticks,1,Chicken drumsticks,TRUE,Chicken Drumsticks,YES
+Chicken wings,1,Chicken wings,TRUE,Chicken Wings,YES
+Chicken Wings,1,Chicken wings,TRUE,Chicken Wings,YES
+Chilli pepper,4,Chilli pepper,TRUE,Pepper,YES
+Chilli Pepper,2,Chilli pepper,TRUE,Pepper,YES
+Chilli pepper sauce,1,Chilli pepper sauce,TRUE,Sweet Chilli Sauce,YES
+Chilli sauce,2,Chilli Sauce,TRUE,Sweet Chilli Sauce,YES
+Chilli Sauce,3,Chilli Sauce,TRUE,Sweet Chilli Sauce,YES
+Chris,1,Chris,FALSE,Chris Salary,NO
+Chris Feb,1,Chris Feb,FALSE,Chris Salary,NO
+Chris Salary,5,Chris Salary,FALSE,Chris Salary,NO
+Coget,1,Coget,TRUE,Coget,YES
+Cojet,2,Cojet,TRUE,Coget,YES
+Coka medium,1,Coka medium,TRUE,Coke Medium,NO
+Coleslaw container,4,Coleslaw container,FALSE,Coleslaw Container,NO
+Corn,3,Corn,TRUE,Corn,YES
+Corn Flour,2,Corn Flour,TRUE,Corn Flour,NO
+Corn starch,1,Corn starch,TRUE,Corn Starch,NO
+Cow meat,1,Cow meat,TRUE,Boneless Beef,YES
+Crab,1,Crab,TRUE,Crab,NO
+Cucumber,4,Cucumber,TRUE,Cucumber,YES
+Cup,3,Cup,FALSE,Disposable Cup,NO
+Curry powder,8,Curry powder,TRUE,Curry Powder,YES
+Curry Powder,4,Curry powder,TRUE,Curry Powder,YES
+Cylinder regulator,1,Cylinder regulator,FALSE,Cylinder Accessories,NO
+Cylindre robe,1,Cylindre robe,TRUE,Cylinder Accessories,NO
+Daavi,1,Daavi,TRUE,Daavi,NO
+Dadisen,1,Dadisen,TRUE,Utensils,NO
+Dadisen holder,1,Dadisen holder,TRUE,Utensils Accessories,NO
+Dark soy,2,Dark soy,TRUE,Soy Sauce ,YES
+Delivery,5,Delivery,FALSE,Market Transportation,NO
+Delivery money to Jerry,1,Delivery money to Jerry,FALSE,Delivery Rider,NO
+Dettol,1,Dettol,FALSE,Washing Powder,NO
+Dining table ,1,Dining table ,FALSE,Table,NO
+Display Fridge,1,Display Fridge,FALSE,Display Fridge,NO
+Disposable cup,1,Disposable cup,FALSE,Disposable Cup,NO
+Disposable Cup,1,Disposable cup,FALSE,Disposable Cup,NO
+Disposable cups,1,Disposable cup,FALSE,Disposable Cup,NO
+Disposable Packs / Takeaway bowls,1,Disposable Packs / Takeaway bowls,FALSE,White Takeaway Bowl,NO
+Drinking water,9,Drinking water,TRUE,Sachet Water,NO
+Drinking Water,4,Drinking water,TRUE,Sachet Water,NO
+Drinks,2,Drinks,TRUE,Drinks,NO
+Drum stick,1,Drumsticks,TRUE,Chicken Drumsticks,YES
+Drum sticks,2,Drumsticks,TRUE,Chicken Drumsticks,YES
+Drumstick,18,Drumsticks,TRUE,Chicken Drumsticks,YES
+Drumsticks,34,Drumsticks,TRUE,Chicken Drumsticks,YES
+Drumsticks 2,1,Drumsticks 2,TRUE,Chicken Drumsticks,YES
+Drumsticks 42 (Not Paid),1,Drumsticks 42 (Not Paid),TRUE,Chicken Drumsticks,YES
+DSTV Mr Cudjoe,1,DSTV Mr Cudjoe,FALSE,DSTV Mr Cudjoe,NO
+Egg,13,Eggs,TRUE,Eggs,YES
+Egg Delivery,1,Egg Delivery,FALSE,Eggs,YES
+Eggs,20,Eggs,TRUE,Eggs,YES
+Eggs previous owing,1,Eggs previous owing,TRUE,Eggs,YES
+Electrician,1,Electrician,FALSE,Electrician,NO
+Emma,2,Emma,TRUE,Electrician,NO
+Fan,1,Fan,FALSE,Electical Fan,NO
+Fire Extinguisher,1,Fire Extinguisher,FALSE,Fire Extinguisher,NO
+Fire Extinguisher Final Payment,1,Fire Extinguisher Final Payment,FALSE,Fire Extinguisher,NO
+Fish Sauce,1,Fish Sauce,TRUE,Fish Sauce,NO
+Fixing,2,Fixing,FALSE,Blender Fixing,NO
+Flavor,9,Flavor,TRUE,Flavor,YES
+Floor Cleaner,1,Floor Cleaner,FALSE,Washing Powder,NO
+Flora tissue,1,Flora tissue,FALSE,Tissue,NO
+Flour,9,Flour,TRUE,Flour,YES
+Flower,1,Flower,TRUE,Flower,NO
+Foil Aluminium bowl big,1,Aluminuim Foil Bowl,FALSE,Medium Silver Bowl,NO
+Foil Aluminium bowl small,1,Aluminuim Foil Bowl,FALSE,Medium Silver Bowl,NO
+Foil bowl,2,Foil bowl,FALSE,Medium Silver Bowl,NO
+Foil Bowl,1,Foil bowl,FALSE,Medium Silver Bowl,NO
+Fork,14,Fork,FALSE,Fork,NO
+Fridge,2,Fridge,FALSE,Fridge,NO
+Fridge transport,1,Fridge transport,FALSE,Fridge transport,NO
+Fries,32,Fries,TRUE,Fries,Yes
+Fries 2,2,Fries 2,TRUE,Fries,YES
+Fruit picker,1,Fruit picker,FALSE,Fruit picker,NO
+Frying Pan Big,1,Frying Pan Big,TRUE,Utensils,NO
+Frying Pan Medium,1,Frying Pan Medium,TRUE,Utensils,NO
+Frying Pan Small,1,Frying Pan Small,TRUE,Utensils,NO
+Gabbage rubber,1,Gabbage rubber,FALSE,Borla Rubber,NO
+Garden eggs,3,Garden eggs,TRUE,Garden Eggs,YES
+Garlic,22,Garlic,TRUE,Garlic,YES
+Garlic Powder,1,Garlic Powder,TRUE,Garlic Powder,YES
+Gas,13,Gas,TRUE,Gas,NO
+Gas & Transport,1,Gas & Transport,FALSE,Gas,NO
+Gas Cylinder Filling,2,Gas Cylinder Filling,FALSE,Gas,NO
+Ginger,45,Ginger,TRUE,Ginger,YES
+Gizard,2,Gizzard,TRUE,Gizzard,YES
+Gizzard,37,Gizzard,TRUE,Gizzard,YES
+Gloves,1,Gloves,FALSE,Gloves,NO
+Goat,2,Goat,TRUE,Goat,YES
+Green beans,2,Green beans,TRUE,Green beans,YES
+Green Beans,1,Green beans,TRUE,Green beans,YES
+Green pepper,41,Green pepper,TRUE,Green Pepper,YES
+Green Pepper,34,Green pepper,TRUE,Green Pepper,YES
+Groundnut,1,Groundnut,TRUE,Groundnut,NO
+Groundnut paste,2,Groundnut paste,TRUE,Groundnut,NO
+Hard Chicken Wings,1,Hard Chicken Wings,TRUE,Chicken Wings,YES
+Heinz Mayonnaise,1,Heinz Mayonnaise,TRUE,Mayonnaise,YES
+Ice Chest,1,Ice Chest,FALSE,Ice Chest,NO
+Irish Potato,5,Irish Potato,TRUE,Irish Potato,YES
+Irish Potatoes,1,Irish Potato,TRUE,Irish Potato,YES
+Iron Sponge,1,Iron Sponge,FALSE,Sponge,NO
+Kaya,1,Kaya,TRUE,Kayayo,NO
+Kayayo,11,Kayayo,TRUE,Kayayo,NO
+Kenkey,9,Kenkey,TRUE,Kenkey,NO
+Ketchup,17,Ketchup,TRUE,Ketchup,YES
+Ketchup ,2,Ketchup,TRUE,Ketchup,YES
+Ketchup 2,1,Ketchup,TRUE,Ketchup,YES
+Khebab pepper,6,Khebab pepper,TRUE,Khebab Pepper,YES
+Khebab Pepper,1,Khebab pepper,TRUE,Khebab Pepper,YES
+Khebab powder,1,Khebab Powder,TRUE,Khebab Pepper,YES
+Khebab Powder,1,Khebab Powder,TRUE,Khebab Pepper,YES
+King Curry Powder 2,1,King Curry Powder 2,TRUE,Curry Powder,YES
+Kivo curry powder,1,Kiwo Curry Powder,TRUE,Curry Powder,YES
+Kivo Curry powder,1,Kiwo Curry Powder,TRUE,Curry Powder,YES
+Kivo Curry Powder 2,1,King Curry Powder 2,TRUE,Curry Powder,YES
+Kivo pepper,4,Kivo pepper,TRUE,Powdered Pepper,YES
+Kivo Pepper,1,Kivo pepper,TRUE,Powdered Pepper,YES
+Kivo spices,1,Kivo spices,TRUE,Powdered Pepper,YES
+Kiwo Curry Powder,1,Kiwo Curry Powder,TRUE,Curry Powder,YES
+Kiwo Pepper 2,1,Kiwo Pepper 2,TRUE,Powdered Pepper,YES
+Kontomire,2,Kontomire,TRUE,Kontomire,YES
+Koobi,1,Koobi,TRUE,Koobi,YES
+Laddle,1,Laddle,FALSE,Utensils,NO
+Large foil bowl,4,Large foil bowl,FALSE,Large Silver Bowl,NO
+Large Foil Bowl,1,Large foil bowl,FALSE,Large Silver Bowl,NO
+Large foil bowls,1,Large foil bowl,FALSE,Large Silver Bowl,NO
+Leaves,1,Leaves,TRUE,Bay Leaves,YES
+Lele fries,1,Lele fries,TRUE,Fries,YES
+Lele Ketchup,1,Lele Ketchup,TRUE,Ketchup,YES
+Lele Mayonnaise,1,Lele Mayonnaise,TRUE,Mayonnaise,YES
+Lele Rice,2,Lele Rice,TRUE,Rice,YES
+Lettuce,22,Lettuce,TRUE,Lettuce,YES
+Light,25,Light,FALSE,Electricity,NO
+Light ,1,Light,FALSE,Electricity,NO
+"Light fixing Bulb 2, wire 12 yards, clip ",1,"Light fixing Bulb 2, wire 12 yards, clip ",FALSE,Electrician,NO
+Lime,1,Lime,TRUE,Lime,YES
+Liquid soap,9,Liquid soap,FALSE,Liquid Soap,NO
+Liquid Soap,8,Liquid soap,FALSE,Liquid Soap,NO
+Macaroni,1,Macaroni,TRUE,Macaroni,YES
+Mackerel,1,Mackerel,TRUE,Mackerel,YES
+Madarzone,1,Madarzone,TRUE,Washing Powder,NO
+Madina Total,1,Madina Total,FALSE,Market Total,NO
+Madina Transport,2,Madina Transport,FALSE,Market Transportation,NO
+Maggi,6,Maggi,TRUE,Maggi,YES
+Maggi Chicken Flavor,1,Maggi Chicken Flavor,TRUE,Maggi,YES
+Maggie,5,Maggi,TRUE,Maggi,YES
+Mango,24,Mango,TRUE,Mango,YES
+Margarine,1,Margarine,TRUE,Margarine,YES
+Matches,4,Matches,FALSE,Matches,NO
+Mayonnaise,31,Mayonnaise,TRUE,Mayonnaise,YES
+Meat Grinder,1,Meat Grinder,FALSE,Meat Grinder,NO
+Medium foil bowl,9,Medium foil bowl,FALSE,Medium Silver Bowl,NO
+Medium foil Bowl,2,Medium foil bowl,FALSE,Medium Silver Bowl,NO
+Medium Foil bowl,1,Medium foil bowl,FALSE,Medium Silver Bowl,NO
+Medium Foil Bowl,2,Medium foil bowl,FALSE,Medium Silver Bowl,NO
+Milk,19,Milk,TRUE,Milk,YES
+Milk ,1,Milk,TRUE,Milk,YES
+Milk powder,3,Milk Powder,TRUE,Powdered Milk,YES
+Milk Powder,3,Milk Powder,TRUE,Powdered Milk,YES
+Minad beef,1,Minced beef,TRUE,Minced Beef,YES
+Minced beef,7,Minced beef,TRUE,Minced Beef,YES
+Minced Beef,1,Minced beef,TRUE,Minced Beef,YES
+Mined beef,1,Minced beef,TRUE,Minced Beef,YES
+Momone,1,Momone,TRUE,Momone,YES
+Mono Sodium,1,Mono Sodium,TRUE,Maggi,YES
+Mop and Bucket,1,Mop and Bucket,FALSE,Kitchen Accessories,NO
+More,1,More,TRUE,Kitchen Accessories,NO
+Mosquito insecticide Spray,1,Mosquito insecticide Spray,FALSE,Mosquito insecticide Spray,NO
+Mr chef,1,Mr Chef,TRUE,Mr Chef Spices,YES
+Mr Chef,6,Mr Chef,TRUE,Mr Chef Spices,YES
+Mr Cudjoe,1,Mr Cudjoe,FALSE,Shop Rent,NO
+Mr Cudjoe rent,1,Mr Cudjoe Rent,FALSE,Shop Rent,NO
+Mr Cudjoe Rent,2,Mr Cudjoe Rent,FALSE,Shop Rent,NO
+Mr. Chef,2,Mr Chef,TRUE,Mr Chef Spices,NO
+Mr. Chef 4,1,Mr. Chef 4,TRUE,Mr Chef Spices,NO
+Mr. Cudjoe,1,Mr Cudjoe,FALSE,Shop Rent,NO
+Mustard,5,Mustard,TRUE,Mustard,YES
+Name light,1,Name light,FALSE,Electricals,NO
+Nana,1,Nana,TRUE,Nana Prempeh,NO
+Napkin,1,Napkins,FALSE,Napkins,NO
+Napkins,1,Napkins,FALSE,Napkins,NO
+Natural Spice,1,Natural Spices,TRUE,Spices Mixture,YES
+Natural spices,2,Natural Spices,TRUE,Spices Mixture,YES
+Natural Spices,2,Natural Spices,TRUE,Spices Mixture,YES
+Non dairy,3,Non Dairy,TRUE,Powdered Milk,YES
+Non Dairy,7,Non Dairy,TRUE,Powdered Milk,YES
+Note Book,1,Note Book,FALSE,Notebook,NO
+Notebook,2,Notebook,FALSE,Notebook,NO
+Ntintini,1,Ntintini,TRUE,Ntintini Meat,NO
+Oil,65,Oil,TRUE,Cooking Oil,YES
+Oil ,1,Oil,TRUE,Cooking Oil,YES
+Oil 2,19,Oil 2,TRUE,Cooking Oil,YES
+Okada for water,1,Okada for water,FALSE,Delivery Rider,NO
+Okro,1,Okro,TRUE,Okro,NO
+Olive oil,2,Olive oil,TRUE,Olive Oil,YES
+Oloka rubber,1,Olonka rubber,FALSE,Olonka Rubber,NO
+Olonka ,1,Olonka ,TRUE,Olonka Rubber,NO
+Olonka rubber,6,Olonka rubber,FALSE,Olonka Rubber,NO
+Olonka rubber 3,2,Olonka rubber,FALSE,Olonka Rubber,NO
+Olonka rubber pack,1,Olonka rubber pack,FALSE,Olonka Rubber,NO
+Onga,13,Onga,TRUE,Onga,YES
+Onion,57,Onion,TRUE,Onion,YES
+Onion (Not Paid),1,Onion (Not Paid),TRUE,Onion,YES
+Onion rubber,1,Onion rubber,FALSE,Onion,YES
+Onions,4,Onion,TRUE,Onion,YES
+Orange,1,Orange,TRUE,Orange,YES
+Oregano,1,Oregano,TRUE,Oregano,YES
+OT,1,OT,TRUE,OT,NO
+Oyster sauce,3,Oyster Sauce,TRUE,Oyster Sauce,YES
+Oyster Sauce,9,Oyster Sauce,TRUE,Oyster Sauce,YES
+Oyster Sauce 2,1,Oyster Sauce,TRUE,Oyster Sauce,YES
+Paper bowl thick,1,Paper bowl thick,FALSE,Paper Bowl,NO
+Paper bowl transperent top,1,Paper bowl transperent top,FALSE,Paper Bowl,NO
+Paprika,1,Paprika,TRUE,Paprika Powder,YES
+Pawpaw,2,Pawpaw,TRUE,Pawpaw,YES
+Pear,3,Pear,TRUE,Pear,YES
+Pepere ne hwentia,1,Pepere ne hwentia,TRUE,Spices Mixture,YES
+Pepper,45,Pepper,TRUE,Pepper,YES
+Pepper green,1,Green pepper,TRUE,Green Pepper,YES
+Pepper Plastic container,1,Pepper Plastic container,FALSE,Shito Container ,NO
+Pepper powder,1,Powdered pepper,TRUE,Powdered Pepper,YES
+Pizza box,1,Pizza box,TRUE,Pizza Box,NO
+Pizza cutter,1,Pizza cutter,TRUE,Pizza Cutter,NO
+Pizza pan,1,Pizza pan,TRUE,Pizza Pan,NO
+Pizza sheet,1,Pizza sheet,TRUE,Pizza Sheet,NO
+Plantain,5,Plantain,TRUE,Plantain,YES
+Poly Tank Water,1,Polytank water,TRUE,Polytank Water,NO
+Polytank water,9,Polytank water,TRUE,Polytank Water,NO
+Polytank Water,7,Polytank water,TRUE,Polytank Water,NO
+Potato,1,Potatoes,TRUE,Sweet Potatoes,YES
+Potatoes,1,Potatoes,TRUE,Sweet Potatoes,YES
+Powder pepper,1,Powdered pepper,TRUE,Powdered Pepper,YES
+Powdered,1,Powdered,TRUE,Powdered Pepper,YES
+Powdered pepper,5,Powdered pepper,TRUE,Powdered Pepper,YES
+Powdered Pepper,1,Powdered pepper,TRUE,Powdered Pepper,YES
+Powerzone,3,Powerzone,FALSE,Powerzone,NO
+pring onion,1,Spring onion,TRUE,Spring Onion,YES
+Pull up rubber,2,Pull up rubber,FALSE,Pull Up Rubber,NO
+Pure Water,2,Pure Water,TRUE,Sachet Water,NO
+Queen Rice 2,2,Queen Rice 2,TRUE,Rice,NO
+Red oil,1,Red oil,TRUE,Red Oil,YES
+Rent Mr Cudjoe,1,Mr Cudjoe Rent,FALSE,Shop Rent,NO
+Replace Money,1,Replace Money,TRUE,Nana Prempeh,NO
+rice,1,Rice,TRUE,Rice,YES
+Rice,36,Rice,TRUE,Rice,YES
+RIce,3,Rice,TRUE,Rice,YES
+Rosemary,3,Rosemary,TRUE,Spices Mixture,YES
+Rosemary powder,1,Rosemary powder,TRUE,Spices Mixture,YES
+Round pepper bowl,1,Round pepper bowl,FALSE,Paper Bowl,NO
+Rubber,1,Rubber,FALSE,Rubber Bands,NO
+Rubber bands,2,Rubber bands,FALSE,Rubber Bands,NO
+Rubber bowls,1,Rubber bowls,FALSE,Rubber Bands,NO
+Rubber tie,4,Rubber tie,FALSE,Rubber Bands,NO
+Sachet Tomato Paste 2,1,Sachet Tomato Paste 2,TRUE,Tomato Paste,YES
+Sachet Water,3,Sachet Water,TRUE,Sachet Water,NO
+Sack,2,Sack,FALSE,Market Sack,NO
+Salmon,1,Salmon,TRUE,Salmon,YES
+Salt,41,Salt,TRUE,Salt,YES
+Sangria,5,Sangria,TRUE,Sangria,NO
+Sardine,1,Sardine,TRUE,Sardine,YES
+Sausage,18,Sausage,TRUE,Sausage,YES
+Sausge,1,Sausage,TRUE,Sausage,YES
+Scaffold,1,Scaffold,FALSE,Kitchen Accessories,NO
+Sesame oil,4,Sesame oil,TRUE,Sesame Oil,YES
+Sesame Oil,2,Sesame oil,TRUE,Sesame Oil,YES
+Sesame seed,1,Sesame seed,TRUE,Sesame Seed,YES
+Shirts,1,Shirts,FALSE,Kitchen Accessories,NO
+Shito container,4,Shito container,FALSE,Shito Container ,NO
+Shito Container,1,Shito container,FALSE,Shito Container ,NO
+Shito containers,1,Shito container,FALSE,Shito Container ,NO
+Shrimp,1,Shrimp,TRUE,Shrimp powder,YES
+Shrimp powder,7,Shrimp powder,TRUE,Shrimp powder,YES
+Shrimp Powder,2,Shrimp powder,TRUE,Shrimp powder,YES
+Silver,1,Silver,FALSE,Utensils,NO
+Slit container,1,Shito container,FALSE,Shito Container ,NO
+Slit Container,1,Shito container,FALSE,Shito Container ,NO
+Small aluminuim bowl,1,Small aluminuim bowl,FALSE,Medium Silver Bowl,NO
+Small Big cup,1,Small Big cup,FALSE,Disposable Cup,NO
+Small bowls,1,Small bowls,FALSE,Medium Silver Bowl,NO
+Small foil bowl,4,Small foil bowl,FALSE,Medium Silver Bowl,NO
+Small Foil bowl,1,Small foil bowl,FALSE,Medium Silver Bowl,NO
+Small Foil Bowl,4,Small foil bowl,FALSE,Medium Silver Bowl,NO
+Small plastic bowls,1,Small plastic bowls,FALSE,Medium Silver Bowl,NO
+Soap,3,Soap,FALSE,Washing Powder,NO
+Socket material,1,Socket material,FALSE,Electricals,NO
+Soft Chicken Wings,1,Soft Chicken Wings,TRUE,Chicken Wings,YES
+Soft Wings,1,Soft Wings,TRUE,Chicken Wings,YES
+Soy Sauce,3,Soy Sauce,TRUE,Soy Sauce,YES
+Spaghetti,19,Spaghetti,TRUE,Spaghetti,YES
+Spaghetti 1,1,Spaghetti,TRUE,Spaghetti,YES
+Spaghetti 2,5,Spaghetti,TRUE,Spaghetti,YES
+Spaghetti 3,1,Spaghetti,TRUE,Spaghetti,YES
+Speaker's transport,1,Speaker's transport,FALSE,Shop Accessories,NO
+Speaker Repair,1,Speaker Repair,FALSE,Shop Accessories,NO
+Spices,2,Spices,TRUE,Spices Mixture,YES
+Sponge,1,Sponge,FALSE,Sponge,NO
+Spoon,17,Spoon,FALSE,Spoon,NO
+Spooon,1,Spoon,TRUE,Spoon,NO
+Spring onion,17,Spring onion,TRUE,Spring Onion,YES
+Spring Onion,11,Spring onion,TRUE,Spring Onion,YES
+Spring onions,2,Spring onion,TRUE,Spring Onion,YES
+Spring Onions,13,Spring onion,TRUE,Spring Onion,YES
+Sticker,1,Sticker,FALSE,Sticker,NO
+Sticker design,1,Sticker design,FALSE,Sticker,NO
+Sticker printing,1,Sticker printing,FALSE,Sticker,NO
+Stove,1,Stove,FALSE,Kitchen Accessories,NO
+Stove fixing,1,Stove fixing,FALSE,Kitchen Accessories,NO
+Stove regulator,1,Stove regulator,FALSE,Kitchen Accessories,NO
+Straw,2,Straw,FALSE,Straw,NO
+Sugar,22,Sugar,TRUE,Sugar,YES
+Sweet chilli,1,Sweet chilli,TRUE,Sweet Chilli Sauce,YES
+Sweet chilli sauce,1,Sweet chilli sauce,TRUE,Sweet Chilli Sauce,YES
+Sweet corn,1,Sweet corn,TRUE,Sweet Corn,YES
+Sweet potato,6,Sweet Potatoes,TRUE,Sweet Potatoes,YES
+Sweet Potato,10,Sweet Potatoes,TRUE,Sweet Potatoes,YES
+Sweet potatoes,1,Sweet Potatoes,TRUE,Sweet Potatoes,YES
+Sweet Potatoes,13,Sweet Potatoes,TRUE,Sweet Potatoes,YES
+Sweet Potto,1,Sweet Potatoes,TRUE,Sweet Potatoes,YES
+Takeaway,1,Takeaway,FALSE,White Takeaway Bowl,NO
+Takeaway Medium,1,Takeaway Medium,FALSE,White Takeaway Bowl,NO
+Takeaway rubber,1,Takeaway rubber,FALSE,White Takeaway Rubber,NO
+Tasty tom,1,Tasty tom,TRUE,Tomato Paste,YES
+Thank you rubber,11,Thank you rubber,FALSE,Pull Up Rubber,NO
+Thank you Rubber,1,Thank you rubber,FALSE,Pull Up Rubber,NO
+Thank You rubber,1,Thank you rubber,FALSE,Pull Up Rubber,NO
+THT,1,THT,TRUE,Market Transportation,NO
+Tilapia,1,Tilapia,TRUE,Tilapia,NO
+Tissue,26,Tissue,FALSE,Tissue,NO
+Tissue 2,13,Tissue,FALSE,Tissue,NO
+Tissue 3,1,Tissue,FALSE,Tissue,NO
+Titus Sardine,1,Titus Sardine,TRUE,Sardine,YES
+TNT,1,TNT,TRUE,Market Transportation,NO
+Tomato,2,Tomatoes,TRUE,Fresh Tomatoes,YES
+Tomato paste,10,Tomato Paste,TRUE,Tomato Paste,YES
+Tomato Paste,11,Tomato Paste,TRUE,Tomato Paste,YES
+Tomato Paste 2,3,Tomato Paste,TRUE,Tomato Paste,YES
+Tomato Paste 3,1,Tomato Paste,TRUE,Tomato Paste,YES
+Tomatoes,6,Tomatoes,TRUE,Tomato Paste,YES
+Toothpick,1,Toothpick,FALSE,Toothpick,NO
+Transparent rubber,1,Transparent rubber,FALSE,Pull Up Rubber,NO
+Transport,78,Transport,FALSE,Market Transportation,NO
+Transport for cheese,1,Transport for cheese,FALSE,Market Transportation,NO
+Transportation,10,Transportation,FALSE,Market Transportation,NO
+Trash bag,1,Trash bag,FALSE,Borla Rubber,NO
+Trash rubber,1,Trash rubber,FALSE,Borla Rubber,NO
+Tuna,2,Tuna,TRUE,Tuna,YES
+Tuna flakes,1,Tuna flakes,TRUE,Tuna flakes,YES
+Venegar,1,Vinegar,TRUE,Vinegar,YES
+Vermox for Chef Sammy,1,Vermox for Chef Sammy,FALSE,Chef Salary,NO
+Verna Water,2,Verna Water,TRUE,Bottle Water,NO
+Vest,1,Vest,FALSE,Kitchen Accessories,NO
+Vinaigiatte Mayonnaise,1,Vinaigiatte Mayonnaise,TRUE,Mayonnaise,YES
+Vinegar,33,Vinegar,TRUE,Vinegar,YES
+Wall nails,1,Wall nails,FALSE,Kitchen Accessories,NO
+Washing powder,18,Washing Powder,FALSE,Washing Powder,NO
+Washing Powder,20,Washing Powder,FALSE,Washing Powder,NO
+Washing Powder 2,2,Washing Powder,FALSE,Washing Powder,NO
+Water,8,Water,TRUE,Polytank Water,NO
+Water Sachet,1,Sachet Water,TRUE,Sachet Water,NO
+Welding,2,Welding,FALSE,Kitchen Accessories,NO
+Wele,1,Wele,TRUE,Wele Meat,YES
+White pepper,1,White Pepper,TRUE,White Pepper,YES
+White Pepper,1,White Pepper,TRUE,White Pepper,YES
+White rubber,4,White rubber 2,FALSE,White Takeaway Rubber,NO
+White Rubber,7,White rubber 2,FALSE,White Takeaway Rubber,NO
+White rubber 2,7,White rubber 2,FALSE,White Takeaway Rubber,NO
+White Rubber 2,1,White rubber 2,FALSE,White Takeaway Rubber,NO
+White rubber 3,1,White rubber 2,FALSE,White Takeaway Rubber,NO
+Wings,3,Wings,TRUE,Chicken Wings,YES
+"Wood, net, nails, Shelves",1,"Wood, net, nails, Shelves",TRUE,Kitchen Accessories,NO
+Wrapper,1,Wrapper,FALSE,Food Wrapper,NO
+XL Rice 2,1,XL Rice 2,TRUE,Rice,YES
+Yam,1,Yam,TRUE,Yam,YES
+Yeast,5,Yeast,TRUE,Yeast,YES
+Yellow mustard,1,Yellow mustard,TRUE,Mustard,YES
+Yellow Mustard,1,Yellow mustard,TRUE,Mustard,YES
+Zara rice 2,1,Zara rice 2,TRUE,Rice,YES
