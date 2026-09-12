@@ -87,7 +87,7 @@ if question:
                 qa_cur.close()
                 qa_conn.close()
 
-                answer = qa.result_to_answer(client, question, sql, columns, rows)
+                answer = qa.format_answer(columns, rows)
                 st.write(answer)
                 with st.expander("Show SQL used"):
                     st.code(sql, language="sql")
@@ -96,4 +96,7 @@ if question:
                 st.error(str(e))
             except Exception as e:
                 print(f"Q&A error: {type(e).__name__}: {e}")
-                st.warning("Q&A is busy right now, try again in a minute.")
+                if "RESOURCE_EXHAUSTED" in str(e) or "429" in str(e):
+                    st.warning("The free daily limit for the Q&A feature has been reached. It resets once a day — please try again later.")
+                else:
+                    st.warning("Q&A is busy right now, try again in a minute.")

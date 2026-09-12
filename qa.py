@@ -71,6 +71,8 @@ Write ONE read-only SELECT query (Postgres syntax) that answers the current ques
 
 Important: item names in the `item` column are specific standardized names (e.g. "Chicken Drumsticks", "Carrots", "Green Pepper"), not general categories. Never match them with exact equality (`=`). Always use case-insensitive partial matching instead, e.g. `item ILIKE '%chicken%'`, so a general term like "chicken" correctly matches every specific chicken item.
 
+Currency aliasing rule (required, so the result can be formatted correctly without asking you again): alias every monetary result column with a name ending in `_ghs` (amount is in Ghanaian Cedis) or `_usd` (amount is already in US Dollars, e.g. `sales.total_sales_usd`). Example: `SELECT SUM(price) AS total_ghs FROM purchases ...`. Non-monetary columns (dates, item names, counts) do not need this suffix.
+
 Return ONLY the raw SQL query. No markdown fences, no explanation, no semicolon-separated multiple statements."""
     response = client.models.generate_content(model="gemini-2.5-flash", contents=prompt)
     sql = response.text.strip().strip("`").strip()
@@ -88,23 +90,37 @@ def validate_sql(sql):
         raise ValueError("Generated query contains multiple statements — refusing to run it.")
     return stripped
 
-def result_to_answer(client, question, sql, columns, rows):
-    ghs_per_usd, rate_note = get_exchange_rate()
-    prompt = f"""Question: "{question}"
-SQL used: {sql}
-Columns: {columns}
-Result rows: {rows}
+def humanize(column_name):
+    name = re.sub(r"_(ghs|usd)$", "", column_name, flags=re.IGNORECASE)
+    return name.replace("_", " ").strip().capitalize() or "Result"
 
-Currency notes:
-- Any amount from the `purchases` table (column `price`) is in Ghanaian Cedis (GHS) ONLY.
-- Any amount from the `operational_costs` table (column `price`) is also in GHS ONLY.
-- Any amount from the `sales` table's `total_sales_cedis` column is GHS; `total_sales_usd` is already a real recorded USD figure — use it directly, do not recompute it.
-- Current exchange rate: 1 USD = {ghs_per_usd:.2f} GHS ({rate_note}).
+def format_value(column_name, value):
+    lower = column_name.lower()
+    if value is None:
+        return "none"
+    if lower.endswith("_ghs"):
+        ghs_per_usd, _ = get_exchange_rate()
+        return f"GHS {float(value):.2f} (USD {float(value) / ghs_per_usd:.2f})"
+    if lower.endswith("_usd"):
+        return f"USD {float(value):.2f}"
+    return str(value)
 
-Formatting rule — every GHS amount in your answer MUST be immediately followed by its USD equivalent in this exact format, no exceptions: "GHS <amount> (USD <amount>)" — the word GHS, one space, the number, then USD equivalent in parentheses computed with the exchange rate above.
-Example: if a result is 3841.0 GHS, write it as: GHS 3841.0 (USD 349.18)
-Do not write a bare GHS amount without its USD equivalent in parentheses right after it. A `total_sales_usd` value is already real USD — still show it the same way, e.g.: GHS 860.00 (USD 78.18).
+def format_answer(columns, rows):
+    """Builds the final answer in plain Python — no second Gemini call needed,
+    which also guarantees the currency formatting instead of hoping the model follows it."""
+    if not rows:
+        return "No matching data found."
 
-Answer the question in one or two plain sentences, using the real numbers from the result. Do not mention SQL or databases."""
-    response = client.models.generate_content(model="gemini-2.5-flash", contents=prompt)
-    return response.text.strip()
+    if len(rows) == 1 and len(columns) == 1:
+        return f"{humanize(columns[0])}: {format_value(columns[0], rows[0][0])}."
+
+    if len(rows) == 1:
+        parts = [f"{humanize(col)}: {format_value(col, val)}" for col, val in zip(columns, rows[0])]
+        return ", ".join(parts) + "."
+
+    lines = []
+    for row in rows[:20]:
+        parts = [f"{humanize(col)}: {format_value(col, val)}" for col, val in zip(columns, row)]
+        lines.append("- " + ", ".join(parts))
+    suffix = f"\n(...and {len(rows) - 20} more rows)" if len(rows) > 20 else ""
+    return "\n".join(lines) + suffix
