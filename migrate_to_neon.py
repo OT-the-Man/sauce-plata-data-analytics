@@ -65,6 +65,9 @@ rows = local_cur.fetchall()
 neon_cur.executemany("INSERT INTO operational_costs (cost_date, price) VALUES (%s, %s);", rows)
 print(f"Migrated {len(rows)} operational_costs rows.")
 
+neon_cur.execute("GRANT SELECT ON purchases, sales, operational_costs TO qa_readonly;")
+print("Re-granted qa_readonly SELECT access (dropping/recreating tables wipes prior grants).")
+
 neon_conn.commit()
 local_cur.close()
 neon_cur.close()

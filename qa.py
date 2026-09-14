@@ -82,7 +82,8 @@ Return ONLY the raw SQL query. No markdown fences, no explanation, no semicolon-
 
 def validate_sql(sql):
     stripped = sql.strip().rstrip(";")
-    if not stripped.lower().startswith("select"):
+    lower = stripped.lower()
+    if not (lower.startswith("select") or lower.startswith("with")):
         raise ValueError("Generated query is not a SELECT statement — refusing to run it.")
     if FORBIDDEN.search(stripped):
         raise ValueError("Generated query contains a disallowed keyword — refusing to run it.")

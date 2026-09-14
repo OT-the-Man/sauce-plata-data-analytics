@@ -21,7 +21,7 @@ try:
     conn.close()
     print("DB result:", columns, rows)
 
-    answer = qa.result_to_answer(client, "what is the profit in June 2026", sql, columns, rows)
+    answer = qa.format_answer(columns, rows)
     print("FINAL ANSWER:", answer)
 except Exception:
     print("FULL ERROR:")
